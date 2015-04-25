@@ -1,0 +1,272 @@
+/* Write your styles */
+header fieldset {
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+
+#hairstyle-select-1 {
+  /*vertical-align: middle;*/
+  text-align: center;
+  /*padding: 0px;*/ 
+}
+
+.mult-select {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.mult-select fieldset {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.hairstyle-select-1 option {
+  text-align: center;
+}
+
+.am-nav-pills li {
+  background: #fff;
+}
+
+.am-nav-pills>li+li {
+  margin-left: 0px;
+}
+
+#main-content {
+  padding: 10px 5px 5px 5px;
+  margin-top: 44px;
+  /*margin-bottom: 10px;*/
+  overflow: hidden;
+}
+#main-content #js-container {
+  overflow: hidden;
+}
+
+#js-container .msry-item {
+  padding:5px;
+  width:50%
+}
+@media only screen and (min-width:641px) and (max-width:1024px) {
+  #js-container .msry-item {
+  width:33.3333333333%
+  }
+}
+@media only screen and (min-width:1025px) {
+  #js-container .msry-item {
+  width:25%
+  }
+}
+#js-container .am-panel {
+  margin-bottom:0
+}
+
+#js-container .photo-center {
+  display: block;
+}
+
+#js-container .box {
+  float: left;
+  width: 48%;
+  margin-bottom: 0px;
+  margin-left: 1.5%;
+}
+
+#js-container .hairstyle-img {
+  position: relative;
+  display: block;
+}
+
+#js-container .hairstyle-title {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+  text-align: center;
+  z-index: 100; 
+  /*background: #000;
+  opacity:0.40;
+  filter:alpha(opacity = 40);*/
+  background: rgba(0, 0, 0, 0.3);
+}
+#js-container .hairstyle-title  span{
+  z-index: 1000;
+  color: #fff;
+  opacity: 1.0;
+  filter:alpha(opacity = 100);
+}
+
+#js-container .hairstyle-img-inf {
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#js-container .barber-inf {
+  float: left;
+}
+
+#js-container .admire-cnt {
+  float: right;
+}
+
+
+#js-container .hairstyle-img img {
+  max-width: 100%;
+  height: 130px;
+} 
+
+#js-container .barber-inf img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+#js-container .admire-cnt img {
+  width: 20px;
+  height: 20px;
+}
+#js-container .hairstyle-img-inf span {
+  font-size: 10px;
+  overflow: hidden;
+}
+.am-thumbnail {
+  margin-bottom: 10px;
+}
+#load-more {
+  padding: 7px 0;
+  margin-bottom: 50px;
+}
+#load-more button {
+  width:100%;
+  display:block;
+  max-width:150px;
+  margin-left:auto;
+  margin-right:auto
+}
+
+.footer {
+  margin-bottom: 39px;
+}
+
+
+
+/*barberInf css*/
+
+.shadow {
+  background: #71AFD6;
+  height: 140px;
+}
+
+
+
+.shadow .pf-photo {
+  height: 80px;
+  position: relative;
+  /*opacity:0.50;*/
+  /*background: #000;*/
+ }
+
+.shadow .photo-wrap {
+  position: absolute;
+  /*display: block;*/
+  left: 50%;
+  bottom: 0px;
+  margin-left: -30px;
+
+}
+.shadow .pf-photo .photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  /*z-index: 9999;*/
+
+}
+.shadow #barber-name {
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.shadow #barber-skill {
+  line-height: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+
+.barberInf-content {
+  margin-top: 10px;
+  padding: 10px 5px 5px 10px;
+  overflow: hidden;
+}
+
+.barbershop-inf, .price-list{
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #F2F2F2;
+}
+
+.barbershop-inf #phone-number {
+  padding-left: 30px;
+  background: url(../i/phone.png) no-repeat;
+  background-position: left center;
+  background-size: 16px;
+}
+
+.barbershop-inf #shop-position {
+  padding-left: 30px;
+  margin-top: 5px;
+  background: url(../i/location.png) no-repeat;
+  background-position: left center;
+  background-size: 18px;
+  font-size: 13px;
+}
+
+.price-list .price-header {
+  text-align: center;
+}
+
+.price-list ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  /*overflow: hidden; */
+}
+.price-list ul li{
+  font-size: 14px;
+}
+
+.toolbar {
+  position: fixed;
+  right: 5px;
+  bottom: 55px;
+  background-color: #cdcdcd;
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+footer ul {
+  border-top: 1px solid #cdcdcd;
+}
+
+footer li {
+  border-left: 1px solid #cdcdcd;
+}
+
+#find-hairstyle  img{
+  /*background: url(../i/find.png) no-repeat center;*/
+  /*background: #1C86EE;*/
+  width: 40px;
+  height: 40px;
+}
+
+#show-hairstyle img {
+  /*background: url(../i/show.png) no-repeat;*/
+  /*background: #EEB422;*/
+  width: 40px;
+  height: 40px;
+}

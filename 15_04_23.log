@@ -1,0 +1,24 @@
+[ 2015-04-23T19:54:54+08:00 ] 127.0.0.1 /yuefa/index.php/yuefa
+ERR: 无法加载模块:Yuefa
+
+[ 2015-04-23T19:55:41+08:00 ] ::1 /yuefa/index.php/yuefa
+ERR: 无法加载模块:Yuefa
+
+[ 2015-04-23T20:03:38+08:00 ] 127.0.0.1 /yuefa/index.php/yuefa
+ERR: 无法加载模块:Yuefa
+
+[ 2015-04-23T20:03:38+08:00 ] 127.0.0.1 /yuefa/index.php/yuefa
+ERR: 无法加载模块:Yuefa
+
+[ 2015-04-23T20:43:15+08:00 ] ::1 /yuefa/index.php?s=/barber?bid=4
+ERR: 无法加载模块:Barber?bid=4
+
+[ 2015-04-23T20:43:45+08:00 ] ::1 /yuefa/index.php?s=/barber?bid=4
+ERR: 无法加载模块:Barber?bid=4
+
+[ 2015-04-23T20:43:48+08:00 ] ::1 /yuefa/index.php?s=/index.php/home/barber?bid=4
+ERR: 无法加载模块:Index.php
+
+[ 2015-04-23T20:43:59+08:00 ] ::1 /yuefa/index.php?s=/index.php/home/barber?bid=4
+ERR: 无法加载模块:Index.php
+
